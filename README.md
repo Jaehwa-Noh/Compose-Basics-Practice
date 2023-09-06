@@ -12,8 +12,8 @@ there are three additional brunch for three practice.
 3개의 연습에 해당하는 추가적인 3개의 브런치가 있습니다.
 
 ## Compose article
-[Compose article page](https://developer.android.com/codelabs/basic-android-kotlin-compose-composables-practice-problems?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-composables-practice-problems#1)   
-[Compose article brunch](https://github.com/shwoghk14/Compose-Basics-Practice/tree/compose-article)
+Codelab: [Compose article page](https://developer.android.com/codelabs/basic-android-kotlin-compose-composables-practice-problems?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-composables-practice-problems#1)   
+Brunch: [Compose article brunch](https://github.com/shwoghk14/Compose-Basics-Practice/tree/compose-article)
 ## Task manager
 Soon
 
