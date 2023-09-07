@@ -7,7 +7,7 @@ there are three additional branch for three practice.
 
 
 연습이 장인을 만든다.   
-이 메인 브런치는 메인 폴더입니다.
+이 메인 브렌치는 메인 폴더입니다.
 
 3개의 연습에 해당하는 추가적인 3개의 브렌치가 있습니다.
 
