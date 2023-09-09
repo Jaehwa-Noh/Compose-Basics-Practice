@@ -4,6 +4,12 @@
 
 
 ## Statement
+### Full Screen
+<img src="https://github.com/shwoghk14/Compose-Basics-Practice/assets/48680511/fccb9a4a-6720-4aff-9d10-1f4517f82a73" width="300"/>
+
+### UI Specifications
+<img src="https://github.com/shwoghk14/Compose-Basics-Practice/assets/48680511/c2727320-34d3-45ee-9fea-25e487831cc3" width="500"/>
+
 1. Set the image to fill the entire screen's width.
 2. Set the first **Text** composable to a **24sp** font size and **16dp** padding (start, end, bottom, and top).
 3. Set the second **Text** composable to a default font size, **16dp** padding(start and end), and **Justify** text align.
