@@ -23,3 +23,6 @@
 
 ### Hint
 Which composable aligns its children vertically?
+
+# My Result
+<img src="https://github.com/shwoghk14/Compose-Basics-Practice/assets/48680511/b89c8989-5d1a-47a4-a0a5-575808a96e18" width="300" />
