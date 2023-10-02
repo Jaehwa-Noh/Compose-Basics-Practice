@@ -15,7 +15,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.composebasicpractice.ui.theme.ComposeBasicPracticeTheme
 
 class MainActivity : ComponentActivity() {
@@ -40,6 +42,7 @@ fun ArticleFormat(image: Painter, modifier: Modifier = Modifier) {
     Column {
         Image(painter = image, contentDescription = null)
         ArticleText(text = "Jetpack Compose tutorial",
+            fontSize = 24.sp,
             modifier = Modifier.padding(16.dp))
         ArticleText(text = "Jetpack Compose is a modern toolkit for building native Android UI. Compose simplifies and accelerates UI development on Android with less code, powerful tools, and intuitive Kotlin APIs.")
         ArticleText(text = "In this tutorial, you build a simple UI component with declarative functions. You call Compose functions to say what elements you want and the Compose compiler does the rest. Compose is built around Composable functions. These functions let you define your app's UI programmatically because they let you describe how it should look and provide data dependencies, rather than focus on the process of the UI's construction, such as initializing an element and then attaching it to a parent. To create a Composable function, you add the @Composable annotation to the function name.")
@@ -47,9 +50,10 @@ fun ArticleFormat(image: Painter, modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun ArticleText(text: String, modifier: Modifier = Modifier) {
+fun ArticleText(text: String, fontSize: TextUnit = TextUnit.Unspecified, modifier: Modifier = Modifier) {
     Text(
         text = text,
+        fontSize = fontSize,
         modifier = modifier
     )
 }
