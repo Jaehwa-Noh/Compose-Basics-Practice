@@ -25,5 +25,4 @@
 ### Hint (도움말)
 Which composable aligns its children vertically? (어떤 composable이 자식 뷰들을 세로로 정렬할까?)
 
-# My Result (내 결과물)
-<img src="https://github.com/shwoghk14/Compose-Basics-Practice/assets/48680511/b89c8989-5d1a-47a4-a0a5-575808a96e18" width="300" />
+# My Result - SwiftUI (내 결과물 - SwiftUI)
