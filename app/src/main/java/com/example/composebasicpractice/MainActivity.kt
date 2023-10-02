@@ -55,7 +55,7 @@ fun ArticleFormat(image: Painter, modifier: Modifier = Modifier) {
 fun ArticleText(
     text: String,
     fontSize: TextUnit = TextUnit.Unspecified,
-    modifier: Modifier = Modifier
+    modifier: Modifier
 ) {
     Text(
         text = text,
