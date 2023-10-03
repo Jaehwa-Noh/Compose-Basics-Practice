@@ -22,4 +22,4 @@
 - Nice work! (잘 했어!)
 
 # My Result (내 결과물)
-
+<img src=https://github.com/shwoghk14/Compose-Basics-Practice/assets/48680511/13363023-a820-4b98-ab1e-444f35f7592b width="300"/>
