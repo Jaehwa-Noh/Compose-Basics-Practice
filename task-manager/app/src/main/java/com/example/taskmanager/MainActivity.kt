@@ -9,6 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.taskmanager.ui.theme.TaskManagerTheme
 
@@ -22,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    TaskManagerText("Android")
                 }
             }
         }
@@ -30,9 +31,10 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun TaskManagerText(text: String, fontWeight: FontWeight? = null, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = text,
+        fontWeight = fontWeight,
         modifier = modifier
     )
 }
@@ -41,6 +43,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     TaskManagerTheme {
-        Greeting("Android")
+        TaskManagerText("Android")
     }
 }
