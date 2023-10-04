@@ -9,10 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(name: "ic_task_completed")
+        VStack(alignment: .center) {
+            Image("ic_task_completed")
             Text("All tasks completed")
+                .fontWeight(.bold)
+                .padding(.top, 24)
+                .padding(.bottom, 8)
             Text("Nice work!")
+                .font(.system(size: 16))
         }
     }
 }
