@@ -1,6 +1,6 @@
 # Task manager (할 일 관리)
-[Task manager page](https://developer.android.com/codelabs/basic-android-kotlin-compose-composables-practice-problems?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-composables-practice-problems#2)   
-[할 일 관리 페이지](https://developer.android.com/codelabs/basic-android-kotlin-compose-composables-practice-problems?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-composables-practice-problems#2)
+[Task manager page](https://developer.android.com/codelabs/basic-android-kotlin-compose-composables-practice-problems?hl=en#2)   
+[할 일 관리 페이지](https://developer.android.com/codelabs/basic-android-kotlin-compose-composables-practice-problems?hl=en#2)
 
 
 

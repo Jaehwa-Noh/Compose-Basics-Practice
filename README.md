@@ -21,7 +21,7 @@ Branch: [Task manager branch](https://github.com/shwoghk14/Compose-Basics-Practi
 Branch: [Task manager SwiftUI branch](https://github.com/shwoghk14/Compose-Basics-Practice/tree/task-manager-swiftUI)
 
 ## Compose quadant
-Codelab: [Compose quadrant codelab](https://developer.android.com/codelabs/basic-android-kotlin-compose-composables-practice-problems#2)   
+Codelab: [Compose quadrant codelab](https://developer.android.com/codelabs/basic-android-kotlin-compose-composables-practice-problems#3)   
 Branch: [Compose quadrant branch](https://github.com/shwoghk14/Compose-Basics-Practice/tree/compose-quadrant)   
 Branch: [Compose quadrant SwiftUI branch](https://github.com/shwoghk14/Compose-Basics-Practice/tree/compose-quadrant-swiftUI)
 
