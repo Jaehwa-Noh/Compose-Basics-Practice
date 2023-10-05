@@ -31,6 +31,7 @@ These colors: (아래의 색상 값)
 - Color(0xFFD0BCFF)
 - Color(0xFFB69DF8)
 - Color(0xFFF6EDFF)   
+
 These strings: (아래의 글자)
 
 - Text composable
