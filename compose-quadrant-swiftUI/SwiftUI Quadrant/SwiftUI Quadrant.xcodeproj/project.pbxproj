@@ -11,6 +11,7 @@
 		CFAB27A52AD3BE4600B93083 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB27A42AD3BE4600B93083 /* ContentView.swift */; };
 		CFAB27A72AD3BE4700B93083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAB27A62AD3BE4700B93083 /* Assets.xcassets */; };
 		CFAB27AA2AD3BE4700B93083 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAB27A92AD3BE4700B93083 /* Preview Assets.xcassets */; };
+		CFAB27B12AD3C2DD00B93083 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAB27B02AD3C2DD00B93083 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CFAB27A42AD3BE4600B93083 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFAB27A62AD3BE4700B93083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFAB27A92AD3BE4700B93083 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFAB27B02AD3C2DD00B93083 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				CFAB27A22AD3BE4600B93083 /* SwiftUI_QuadrantApp.swift */,
 				CFAB27A42AD3BE4600B93083 /* ContentView.swift */,
 				CFAB27A62AD3BE4700B93083 /* Assets.xcassets */,
+				CFAB27B02AD3C2DD00B93083 /* Colors.xcassets */,
 				CFAB27A82AD3BE4700B93083 /* Preview Content */,
 			);
 			path = "SwiftUI Quadrant";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFAB27B12AD3C2DD00B93083 /* Colors.xcassets in Resources */,
 				CFAB27AA2AD3BE4700B93083 /* Preview Assets.xcassets in Resources */,
 				CFAB27A72AD3BE4700B93083 /* Assets.xcassets in Resources */,
 			);

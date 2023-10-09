@@ -13,6 +13,7 @@ struct ContentView: View {
             HStack {
                 CardView(title: "Text composable", information: "Displays text and follows the recommended Material Design guidelines.")
                     .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
+                    .background(Color(UIColor(red: 0, green: 1, blue: 0, alpha: 1)))
                 
                 CardView(title: "Image composable", information: "Creates a composable that lays out and draws a given Painter class object.")
                     .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
