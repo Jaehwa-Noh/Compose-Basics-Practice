@@ -50,4 +50,4 @@ These strings: (아래의 글자)
 
 
 # My Result (내 결과물)
-<img src="https://github.com/shwoghk14/Compose-Basics-Practice/assets/48680511/b59a9686-9042-4e03-aea0-813040b193ab" width="300" />
+<img src="https://github.com/shwoghk14/Compose-Basics-Practice/assets/48680511/897dfe9a-0eaa-4258-98bb-3e1de4d5caef" width="300" />
