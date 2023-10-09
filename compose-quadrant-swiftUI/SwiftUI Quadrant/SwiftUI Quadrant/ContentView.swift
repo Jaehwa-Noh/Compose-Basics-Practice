@@ -21,6 +21,19 @@ struct ContentView: View {
     }
 }
 
+struct CardView: View {
+    var title: String
+    var information: String
+    
+    var body: some View {
+        VStack {
+            Text(title)
+            Text(information)
+        }
+        .padding(16)
+    }
+}
+
 #Preview {
     ContentView()
 }
