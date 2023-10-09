@@ -9,23 +9,42 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            HStack {
-                CardView(title: "Text composable", information: "Displays text and follows the recommended Material Design guidelines.")
-                    .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
-                    .background(Color(UIColor(red: 0, green: 1, blue: 0, alpha: 1)))
+        VStack(spacing:0) {
+            HStack(spacing: 0) {
+                ZStack {
+                    Rectangle()
+                        .foregroundStyle(.box1)
+                    
+                    CardView(title: "Text composable", information: "Displays text and follows the recommended Material Design guidelines.")
+                        .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
+                }
                 
-                CardView(title: "Image composable", information: "Creates a composable that lays out and draws a given Painter class object.")
-                    .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
+                ZStack {
+                    Rectangle()
+                        .foregroundStyle(.box2)
+                    
+                    CardView(title: "Image composable", information: "Creates a composable that lays out and draws a given Painter class object.")
+                        .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
+                }
             }
             .frame(minHeight: 0, maxHeight: .infinity)
             
             
-            HStack {
-                CardView(title: "Row composable", information: "A layout composable that places its children in a horizontal sequence.")
-                    .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
-                CardView(title: "Column composable", information: "A layout composable that places its children in a vertical sequence.")
-                    .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
+            HStack(spacing: 0) {
+                ZStack {
+                    Rectangle()
+                        .foregroundStyle(.box3)
+                    CardView(title: "Row composable", information: "A layout composable that places its children in a horizontal sequence.")
+                        .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
+                }
+                
+                ZStack {
+                    Rectangle()
+                        .foregroundStyle(.box4)
+                    
+                    CardView(title: "Column composable", information: "A layout composable that places its children in a vertical sequence.")
+                        .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
+                }
             }
             .frame(minHeight: 0, maxHeight: .infinity)
         }
